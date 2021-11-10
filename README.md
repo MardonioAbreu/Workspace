@@ -1,2 +1,2 @@
-# basicJava
+# Basic Java
 My first Java steps
