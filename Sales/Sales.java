@@ -1,5 +1,8 @@
 package Workspace.Sales;
-
+/*
+Written by Mardonio Abreu
+November 14, 2021
+*/
 import java.util.Scanner;
 public class Sales 
 {
