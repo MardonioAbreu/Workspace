@@ -74,7 +74,7 @@ public class Sales
         System.out.println(counter[6]);
         System.out.print("Vendedores con salario entre $900 y $999 ");
         System.out.println(counter[7]);
-        System.out.print("Vendedores con salario mayor a $1000 ");
+        System.out.print("Vendedores con salario mayor a $10000 ");
         System.out.println(counter[8]);
               
     }
