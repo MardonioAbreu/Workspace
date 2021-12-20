@@ -1,14 +1,10 @@
 package Workspace.Sales;
-/*
-Written by Mardonio Abreu
-November 14, 2021
-*/
 import java.util.Scanner;
 public class Sales 
 {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);       
+        Scanner sc = extracted();       
         double[] sales = new double[10];
         int[] counter = new int[9];
         
@@ -77,6 +73,11 @@ public class Sales
         System.out.print("Vendedores con salario mayor a $10000 ");
         System.out.println(counter[8]);
               
+    }
+
+    private static Scanner extracted() {
+        Scanner sc = new Scanner(System.in);
+        return sc;
     }
         
 }
